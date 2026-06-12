@@ -1,0 +1,94 @@
+<!--
+Granny's Pies - Competition Front Page
+Author: Your Name
+Description: Modern homepage with interactive UI (no backend)
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Granny's Pies</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAV -->
+    <header class="navbar">
+        <div class="logo">🥧 Granny's Pies</div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="pie.html">Recipe</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1>Fresh Homemade Pies</h1>
+            <p>Made with love, tradition, and the finest ingredients.</p>
+
+            <button onclick="scrollToMenu()">Explore Menu</button>
+        </div>
+    </section>
+
+    <!-- MENU -->
+    <section id="menu" class="menu-section">
+        <h2>Our Famous Pies</h2>
+
+        <div class="menu-grid">
+
+            <div class="card">
+                <h3>Lemon Meringue</h3>
+                <p>Sweet & tangy classic dessert.</p>
+            </div>
+
+            <div class="card">
+                <h3>Apple Pie</h3>
+                <p>Warm cinnamon-filled perfection.</p>
+            </div>
+
+            <div class="card">
+                <h3>Chocolate Cream</h3>
+                <p>Rich, smooth and indulgent.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FEATURE -->
+    <section class="feature">
+        <h2>Why Choose Us?</h2>
+
+        <ul>
+            <li>🥧 Handmade daily</li>
+            <li>🍯 Natural ingredients</li>
+            <li>🔥 Fresh from the oven</li>
+        </ul>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+
+        <p>Email: alainpaulkitio22@gmail.com</p>
+
+        <button onclick="showMessage()">Click for Surprise</button>
+
+        <p id="message"></p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 Granny's Pies</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
